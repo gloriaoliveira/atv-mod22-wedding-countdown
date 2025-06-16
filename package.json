@@ -2,7 +2,7 @@
   "name": "atv_mod22",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
