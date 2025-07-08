@@ -2,9 +2,10 @@
   "name": "atv_mod22",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build src/index.html",
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html --no-cache",
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x node_modules/.bin/parcel"
   },
   "keywords": [],
   "author": "",
